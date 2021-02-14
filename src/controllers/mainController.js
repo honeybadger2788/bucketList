@@ -17,6 +17,7 @@ module.exports = {
             text: req.body.text,
         })
         .then (function(resultado){
+            console.log(resultado);
             return res.redirect('/');
         })
     },
@@ -39,6 +40,7 @@ module.exports = {
             }
         })
         .then (function(resultado){
+            console.log(resultado);
             return res.redirect('/');
         }) 
     },
@@ -52,6 +54,7 @@ module.exports = {
             }
         })
         .then (function(resultado){
+            console.log(resultado);
             return res.redirect('/');
         }) 
     },
